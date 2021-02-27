@@ -9,28 +9,28 @@ const illustration = {
 };
 
 const greeting = {
-  username: "David Rakosi",
-  title: "Hi all, I'm David",
+  username: "Brandon Roth",
+  title: "Hi all, I'm Brandon",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A passionate Software Engineer 🚀 having an experience of designing and building Embedded Linux C++ Applications, RTOS Applications, and Web applications with JavaScript / Reactjs / Nodejs."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://docs.google.com/document/d/1n_E3W1vC1FrAQnaJ9n_ddbJiK_1xv1sSORFTJHy9R5o/edit?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/drakosi99",
-  // linkedin: "https://www.linkedin.com/in/",
-  gmail: "contact@davidrakosi.com",
+  github: "https://github.com/stew8908",
+  linkedin: "https://www.linkedin.com/in/brandon-j-roth/",
+  gmail: "brandon.joseph.roth1@gmail.com",
   // gitlab: "https://gitlab.com/",
   // facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/@davidrakosi",
-  stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-  instagram: 'https://www.instagram.com/davidrakosi/',
-  twitter: 'https://twitter.com/davidrakosi_',
+  //medium: "https://medium.com/@davidrakosi",
+  stackoverflow: "https://stackoverflow.com/users/8391078/stew8908",
+  //instagram: 'https://www.instagram.com/davidrakosi/',
+  //twitter: 'https://twitter.com/davidrakosi_',
   display: true // Set true to display this section, defaults to false
 };
 
@@ -38,14 +38,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "SOFTWARE ENGINEER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Develop efficient and reliable embedded applications"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Effective scripting and testing frameworks"
     )
   ],
 
@@ -60,10 +60,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
     },
     {
       skillName: "JavaScript",
@@ -82,17 +78,19 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-swift"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "C++",
+      fontAwesomeClassname: "fab fa-cuttlefish"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    }
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -131,15 +129,23 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend / Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "20%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "20%"
     },
     {
-      Stack: "Programming",
+      Stack: "C++",
       progressPercentage: "90%"
+    },
+    {
+      Stack: "Python",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Swift",
+      progressPercentage: "50%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -151,34 +157,32 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
+      role: "Senior Software Engineer",
+      company: "Raven Industries",
+      companylogo: require("./assets/images/raven.png"),
+      date: "August 2019 – Present",
       desc:
-        "Changing lives of developers one line of code at a time.",
+        "Develop C++ programs for both linux embedded products and micros, specifically using the keil sdk.",
       descBullets: [
-        "Custom building applications",
-        "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials"
+        "Develop and maintain C++ projects",
+        "Build scripts and automation for build infastructure",
       ]
     },
     {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
-      date: "July 2019 – September 2020",
+      role: "Project Engineer",
+      company: "Raven Industries",
+      companylogo: require("./assets/images/raven.png"),
+      date: "December 2017 – August 2020",
       desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
+        "Perform Object Pool Development(UI) for display on ISO 11783 compliant virtual terminals. Send messages using J1939 CAN protocol. Perform Engineering Validation Testing for software and new products. Perform system cable design for agriculture precision Ag equipment."
     },
     {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
-      date: "November 2018 – July 2019",
+      role: "Engineering Technician",
+      company: "Raven Industries",
+      companylogo: require("./assets/images/raven.png"),
+      date: "March 2012 – December 2017",
       desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
+        "Install and develop hydraulic steering kits on agriculture equipment to help dealers quickly install systems on other machines. Also, develop test plans and test software for the SmarTrax steering line. Tune in machines to achieve optimal performance. "
     }
   ]
 };
@@ -310,7 +314,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -349,15 +353,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com"
+  number: "(605) 310 1418",
+  email_address: "brandon.joseph.roth1@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
